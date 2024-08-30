@@ -9,5 +9,5 @@ sudo useradd -m -s /bin/bash "darya"
 echo "darya:Darya123456" | sudo chpasswd
 sudo chown -R "darya:darya" "/home/darya"
 sudo usermod -aG sudo "darya"
-systemctl restart ssh
+sudo systemctl restart ssh
 echo "Done"
