@@ -7,6 +7,6 @@ echo "banner /etc/banner" >> /etc/ssh/sshd_config
 
 sudo useradd -m -s /bin/bash "darya"
 echo "darya:Darya123456" | sudo chpasswd
-sudo chown -R "darya:darya" "/home/root"
+sudo chown -R "darya:darya" "/home/darya"
 sudo usermod -aG sudo "darya"
 echo "Done"
